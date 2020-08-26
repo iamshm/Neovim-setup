@@ -5,6 +5,8 @@ source D:/Apps/nvim-win64/nvim/plug-config/coc.vim
 source D:/Apps/nvim-win64/nvim/plug-config/airline.vim
 source D:/Apps/nvim-win64/nvim/plug-config/mapping.vim
 source D:/Apps/nvim-win64/nvim/plug-config/ctrlp.vim
+source D:/Apps/nvim-win64/nvim/plug-config/floatterm.vim
+source D:/Apps/nvim-win64/nvim/plug-config/emmetset.vim
 
 if (has("nvim"))
   let $NVIM_TUI_ENABLE_TRUE_COLOR=1
