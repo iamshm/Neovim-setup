@@ -12,7 +12,7 @@ plugin.vim has all the list of installed plugins.
 #### coc-settings 
 This file has all my coc preferences
 
-#### javascriptreact.snippets
-This file has custom snippets for react
+#### coct.snippets
+This file has custom snippets for react and cpp
 
 
