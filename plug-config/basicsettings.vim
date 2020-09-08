@@ -34,6 +34,8 @@ set noswapfile
 set noshowmode
 set omnifunc=syntaxcomplete#Complete
 
+"let g:Guifont="Fira Code Nerd Font:h14"
+
 set backspace=indent,eol,start " let backspace delete over lines
 set autoindent " enable auto indentation of lines
 set smartindent " allow vim to best-effort guess the indentation
@@ -45,5 +47,3 @@ set showmatch "highlights matching brackets
 set incsearch "search as characters are entered
 set hlsearch "highlights matching searcher
 " clears highlights
- 
-

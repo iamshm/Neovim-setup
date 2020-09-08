@@ -7,5 +7,6 @@ let g:NERDTreeWinPos = "right"
 
 vmap ,x <plug>NERDCommenterToggle
 nmap ,x <plug>NERDCommenterToggle
-
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
 
