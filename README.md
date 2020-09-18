@@ -3,7 +3,7 @@
 [tutorial link](https://www.youtube.com/watch?v=h6EceMac8eE)
 
 #### init.vim 
-I have only used to organice my vim settings. Basically refactored it.
+I have only used to organise my vim settings. Basically refactored it.
 
 #### plug-config
 This directory has settings which were refactored from init.vim \
