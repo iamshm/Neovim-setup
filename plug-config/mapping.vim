@@ -4,10 +4,14 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+nnoremap <M> <ESC>
 inoremap ,, <ESC>
 nnoremap ,, <ESC>
 vnoremap ,, <ESC>
 nnoremap // :noh<return>
+
+vmap ,x <plug>NERDCommenterToggle
+nmap ,x <plug>NERDCommenterToggle
 
 " run code
 nnoremap \ :te<enter>

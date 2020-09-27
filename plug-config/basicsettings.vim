@@ -1,11 +1,14 @@
 set splitbelow
 set splitright
-
+set cursorline
 " Enable folding
 set foldmethod=indent
 set foldlevel=99
 "Enable folding with the spacebar
 nnoremap <space> za
+" Don't let x and c to spoil the yank register
+nnoremap x "_x
+nnoremap c "_c
 
 au BufNewFile,BufRead *.py,*.java,*.cpp,*.c,*html,*.css,*.js
     \ set tabstop=4 |
@@ -34,8 +37,6 @@ set noswapfile
 set noshowmode
 set omnifunc=syntaxcomplete#Complete
 
-"let g:Guifont="Fira Code Nerd Font:h14"
-
 set backspace=indent,eol,start " let backspace delete over lines
 set autoindent " enable auto indentation of lines
 set smartindent " allow vim to best-effort guess the indentation
@@ -47,3 +48,5 @@ set showmatch "highlights matching brackets
 set incsearch "search as characters are entered
 set hlsearch "highlights matching searcher
 " clears highlights
+
+let g:javascript_plugin_jsdoc = 1
