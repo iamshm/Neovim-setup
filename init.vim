@@ -7,6 +7,7 @@ source D:/Apps/Neovim/plugconfig/mapping.vim
 source D:/Apps/Neovim/plugconfig/ctrlp.vim
 source D:/Apps/Neovim/plugconfig/emmetset.vim
 source D:/Apps/Neovim/plugconfig/startscreen.vim
+source D:/Apps/Neovim/plugconfig/signify.vim
 if (has("nvim"))
   let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 endif
@@ -14,9 +15,7 @@ endif
 if (has("termguicolors"))
   set termguicolors
 endif
-
-let g:palenight_terminal_italics=1
-"colorscheme ayu
-colorscheme molokai
-
+colorscheme gruvbox
 let mapleader = ","
+
+
