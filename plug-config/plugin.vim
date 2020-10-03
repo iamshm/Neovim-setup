@@ -3,15 +3,13 @@ call plug#begin(stdpath('data'))
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'preservim/nerdtree'
 Plug 'preservim/nerdcommenter'
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+"Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mhinz/vim-startify'
-Plug 'yuttie/comfortable-motion.vim'
 
 Plug 'sheerun/vim-polyglot'  "for syntax highlighting and intendentations
 Plug 'tpope/vim-surround'
 Plug 'vim-syntastic/syntastic' "finding syntax errors
-Plug 'honza/vim-snippets' "snippets
 Plug 'mattn/emmet-vim' "for autocompletion of tags
 Plug 'Chiel92/vim-autoformat' "for autofarmatting
 
@@ -21,11 +19,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'morhetz/gruvbox'
 Plug 'dstein64/vim-startuptime'
-"git integration
-Plug 'mhinz/vim-signify'
-Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-rhubarb'
-Plug 'junegunn/gv.vim'
 
 call plug#end()
 
