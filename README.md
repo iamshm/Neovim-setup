@@ -15,4 +15,12 @@ This file has all my coc preferences
 #### coct.snippets
 This file has custom snippets for react and cpp
 
+#### fzf installation
+To install fzf and rg in Windows OS we have to use [chocolatey](https://chocolatey.org/install) \
+After installing chocolatey run Powershell with Admin rights and run following commands one by one \
+```
+choco install fzf
+choco install rg
+```
+check `plugin.vim` and `fzf.vim` for integration with vim.
 
