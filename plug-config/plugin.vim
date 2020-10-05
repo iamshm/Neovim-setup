@@ -5,7 +5,7 @@ Plug 'preservim/nerdtree'
 Plug 'preservim/nerdcommenter'
 "Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mhinz/vim-startify'
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+"Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } "need not do this as we are installing fzf using chocolatey
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
 
