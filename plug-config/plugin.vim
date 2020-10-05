@@ -3,9 +3,11 @@ call plug#begin(stdpath('data'))
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'preservim/nerdtree'
 Plug 'preservim/nerdcommenter'
-"Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plug 'ctrlpvim/ctrlp.vim'
+"Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mhinz/vim-startify'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'airblade/vim-rooter'
 
 Plug 'sheerun/vim-polyglot'  "for syntax highlighting and intendentations
 Plug 'tpope/vim-surround'
@@ -18,7 +20,6 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'morhetz/gruvbox'
-Plug 'dstein64/vim-startuptime'
 
 call plug#end()
 
