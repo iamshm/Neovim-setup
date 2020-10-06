@@ -5,14 +5,15 @@
 let g:fzf_history_dir = '~/.local/share/fzf-history'
 nnoremap ,g :Rg
 nnoremap ,f :FZF<CR>
+nnoremap ,h :History<CR>
 nnoremap  ,z :GFiles<CR>
 nnoremap ,b :Buffers<CR>
 nnoremap ,bb :BLines<CR>
 nnoremap ,l :Lines<CR>
 
-"let g:fzf_tags_command = 'ctags -R'
+let g:fzf_tags_command = 'ctags -R'
 
-" Border color
+ "Border color
 let g:fzf_layout = { 'down': '30%' }
 "let g:fzf_layout = {'up':'~90%', 'window': { 'width': 0.8, 'height': 0.6,'yoffset':0.5,'xoffset': 0.5, 'highlight': 'Todo', 'border': 'sharp' } }
 let $FZF_DEFAULT_OPTS = '--layout=reverse --info=inline'
@@ -35,8 +36,7 @@ let g:fzf_colors =
 
 "Get Files
 command! -bang -nargs=? -complete=dir Files
-      \ call fzf#vim#files(<q-args>, fzf#vim#with_preview({'options': ['--layout=reverse', '--info=inline']}), <bang>0)
-
+    \ call fzf#vim#files(<q-args>, fzf#vim#with_preview({'options': ['--layout=reverse', '--info=inline']}), <bang>0)
 
 " Get text in files with Rg
 command! -bang -nargs=* Rg
@@ -67,3 +67,4 @@ if has('nvim')
     au TermOpen term://*FZF tnoremap <silent> <buffer><nowait> <esc> <c-c>
   aug END
 end
+

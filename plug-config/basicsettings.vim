@@ -50,3 +50,4 @@ set hlsearch "highlights matching searcher
 " clears highlights
 
 let g:javascript_plugin_jsdoc = 1
+"let g:lsc_auto_map = v:true

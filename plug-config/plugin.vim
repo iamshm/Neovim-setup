@@ -3,9 +3,10 @@ call plug#begin(stdpath('data'))
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'preservim/nerdtree'
 Plug 'preservim/nerdcommenter'
-"Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mhinz/vim-startify'
-"Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } "need not do this as we are installing fzf using chocolatey
+
+"fzf Integratio
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
 
@@ -21,6 +22,11 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'morhetz/gruvbox'
 
+"Git Integration
+Plug 'mhinz/vim-signify'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
+Plug 'junegunn/gv.vim'
 call plug#end()
 
 " coc config
